@@ -21,7 +21,7 @@ class QuestaoViewController: UIViewController {
         
         if(numeroQuestao < questoes.count  - 1){
             numeroQuestao += 1
-            configurarQuestao()
+            Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(configurarQuestao), userInfo: nil, repeats: false)
         }
     }
     
@@ -41,7 +41,7 @@ class QuestaoViewController: UIViewController {
         }
     }
     
-    func configurarQuestao(){
+    @objc func configurarQuestao(){
         tituloQuestaoLabel.text = questoes[numeroQuestao].titulo
         for botao in botoesResposta{
             let titutoBotao = questoes[numeroQuestao].respostas[botao.tag]
