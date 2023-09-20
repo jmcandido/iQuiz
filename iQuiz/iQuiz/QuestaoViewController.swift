@@ -19,9 +19,14 @@ class QuestaoViewController: UIViewController {
         if(questoes[numeroQuestao].respostaCorreta == sender.tag){
             pontuacao += 1
             print("Usuário Acertou")
-        }else{
-            print("errou")
         }
+        
+        if(numeroQuestao < questoes.count  - 1){
+            numeroQuestao += 1
+            configurarQuestao()
+        }
+        
+        
         
             
     }
