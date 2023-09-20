@@ -1,9 +1,4 @@
-//
-//  QuestaoViewController.swift
-//  iQuiz
-//
-//  Created by Giovanna Moeller on 14/02/23.
-//
+
 
 import UIKit
 
@@ -16,19 +11,18 @@ class QuestaoViewController: UIViewController {
     @IBOutlet var botoesResposta: [UIButton]!
     
     @IBAction func respostaBotaoPressionado(_ sender: UIButton) {
+        
         if(questoes[numeroQuestao].respostaCorreta == sender.tag){
             pontuacao += 1
-            print("Usuário Acertou")
+            sender.backgroundColor = UIColor(red: 11/255, green: 161/255, blue: 53/255, alpha: 1)
+        }else{
+            sender.backgroundColor = UIColor(red: 211/255, green: 17/255, blue: 17/255, alpha: 1)
         }
         
         if(numeroQuestao < questoes.count  - 1){
             numeroQuestao += 1
             configurarQuestao()
         }
-        
-        
-        
-            
     }
     
     override func viewDidLoad() {
@@ -37,8 +31,6 @@ class QuestaoViewController: UIViewController {
         configurarQuestao()
         // Do any additional setup after loading the view.
     }
-    
-    
     
     func configurarLayout() {
         navigationItem.hidesBackButton = true
@@ -54,19 +46,17 @@ class QuestaoViewController: UIViewController {
         for botao in botoesResposta{
             let titutoBotao = questoes[numeroQuestao].respostas[botao.tag]
             botao.setTitle(titutoBotao, for: .normal)
+            botao.backgroundColor = UIColor(red: 116/255, green: 50/255, blue: 255/255, alpha: 1)
         }
-                
-        
     }
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
