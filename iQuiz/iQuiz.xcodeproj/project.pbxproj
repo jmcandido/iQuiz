@@ -16,6 +16,7 @@
 		D03A251C2AB84F74007AA8D7 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A251B2AB84F74007AA8D7 /* iQuizTests.swift */; };
 		D03A25262AB84F74007AA8D7 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A25252AB84F74007AA8D7 /* iQuizUITests.swift */; };
 		D03A25282AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A25272AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift */; };
+		D05264C72ABB4A42009CF49F /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05264C62ABB4A42009CF49F /* Questao.swift */; };
 		D08302FA2ABB05CD00B21880 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		D03A25212AB84F74007AA8D7 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03A25252AB84F74007AA8D7 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		D03A25272AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D05264C62ABB4A42009CF49F /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
 		D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				D03A250F2AB84F74007AA8D7 /* LaunchScreen.storyboard */,
 				D03A25122AB84F74007AA8D7 /* Info.plist */,
 				D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */,
+				D05264C62ABB4A42009CF49F /* Questao.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				D03A25092AB84F72007AA8D7 /* ViewController.swift in Sources */,
 				D03A25052AB84F72007AA8D7 /* AppDelegate.swift in Sources */,
 				D03A25072AB84F72007AA8D7 /* SceneDelegate.swift in Sources */,
+				D05264C72ABB4A42009CF49F /* Questao.swift in Sources */,
 				D08302FA2ABB05CD00B21880 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
