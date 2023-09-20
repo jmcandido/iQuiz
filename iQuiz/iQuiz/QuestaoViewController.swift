@@ -14,13 +14,22 @@ class QuestaoViewController: UIViewController {
     
     @IBOutlet weak var tituloQuestaoLabel: UILabel!
     @IBOutlet var botoesResposta: [UIButton]!
+    
     @IBAction func respostaBotaoPressionado(_ sender: UIButton) {
-        print(sender.tag)
+        if(questoes[numeroQuestao].respostaCorreta == sender.tag){
+            pontuacao += 1
+            print("Usuário Acertou")
+        }else{
+            print("errou")
+        }
+        
+            
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configurarLayout()
+        configurarQuestao()
         // Do any additional setup after loading the view.
     }
     
@@ -28,9 +37,20 @@ class QuestaoViewController: UIViewController {
     
     func configurarLayout() {
         navigationItem.hidesBackButton = true
+        tituloQuestaoLabel.numberOfLines = 0
+        tituloQuestaoLabel.textAlignment = .center
         for botoes in botoesResposta{
             botoes.layer.cornerRadius = 12.0
         }
+    }
+    
+    func configurarQuestao(){
+        tituloQuestaoLabel.text = questoes[numeroQuestao].titulo
+        for botao in botoesResposta{
+            let titutoBotao = questoes[numeroQuestao].respostas[botao.tag]
+            botao.setTitle(titutoBotao, for: .normal)
+        }
+                
         
     }
     
