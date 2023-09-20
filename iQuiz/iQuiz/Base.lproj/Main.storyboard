@@ -48,6 +48,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ok6-0W-edD"/>
+                    <connections>
+                        <outlet property="botaoIniciarQuiz" destination="wN1-Ys-GEL" id="yBf-X6-hg8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,6 +129,9 @@
                     <navigationItem key="navigationItem" id="vds-R0-peD"/>
                     <connections>
                         <outlet property="TituloQuestaoLabel" destination="IXg-O7-I14" id="o9u-wx-JpQ"/>
+                        <outletCollection property="botoesResposta" destination="xQ2-HP-skH" collectionClass="NSMutableArray" id="feF-0j-lTs"/>
+                        <outletCollection property="botoesResposta" destination="MUj-om-2Ux" collectionClass="NSMutableArray" id="6HA-Zb-9iC"/>
+                        <outletCollection property="botoesResposta" destination="mHq-ag-uoR" collectionClass="NSMutableArray" id="MYv-Q9-28h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v0B-ZR-tGn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     func configuraLayout() {
-        
+        botaoIniciarQuiz.layer.cornerRadius = 12.0
     }
 
 }

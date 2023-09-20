@@ -25,6 +25,9 @@ class QuestaoViewController: UIViewController {
     
     func configurarLayout() {
         navigationItem.hidesBackButton = true
+        for botoes in botoesResposta{
+            botoes.layer.cornerRadius = 12.0
+        }
     }
     
     /*
