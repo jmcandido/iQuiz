@@ -1,5 +1,5 @@
 //
-//  DesempenhoViewController.swift
+//  aaaaaViewController.swift
 //  iQuiz
 //
 //  Created by João Marcelo Candido Borges on 20/09/23.
@@ -7,21 +7,14 @@
 
 import UIKit
 
-class DesempenhoViewController: UIViewController {
-    
-    var pontuacao:Int?
-    
-    @IBOutlet weak var botaoReiniciar: UIButton!
-    
+class aaaaaViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        configuraBotao()
+
         // Do any additional setup after loading the view.
     }
     
-    func configuraBotao(){
-        botaoReiniciar.layer.cornerRadius = 12
-    }
 
     /*
     // MARK: - Navigation
