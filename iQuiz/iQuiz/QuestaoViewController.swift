@@ -2,22 +2,31 @@
 //  QuestaoViewController.swift
 //  iQuiz
 //
-//  Created by João Marcelo Candido Borges on 18/09/23.
+//  Created by Giovanna Moeller on 14/02/23.
 //
 
 import UIKit
 
 class QuestaoViewController: UIViewController {
 
+    @IBOutlet weak var tituloQuestaoLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configurarLayout()
         // Do any additional setup after loading the view.
-        
+    }
+    
+    @IBOutlet var botoesResposta: [UIButton]!
+    
+    @IBAction func respostaBotaoPressionado(_ sender: UIButton) {
+        print(sender.tag)
+    }
+    
+    func configurarLayout() {
         navigationItem.hidesBackButton = true
     }
     
-
     /*
     // MARK: - Navigation
 

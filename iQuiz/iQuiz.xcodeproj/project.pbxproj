@@ -16,7 +16,7 @@
 		D03A251C2AB84F74007AA8D7 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A251B2AB84F74007AA8D7 /* iQuizTests.swift */; };
 		D03A25262AB84F74007AA8D7 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A25252AB84F74007AA8D7 /* iQuizUITests.swift */; };
 		D03A25282AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A25272AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift */; };
-		D07732892AB91439007D08AC /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07732882AB91439007D08AC /* QuestaoViewController.swift */; };
+		D08302FA2ABB05CD00B21880 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		D03A25212AB84F74007AA8D7 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03A25252AB84F74007AA8D7 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		D03A25272AB84F74007AA8D7 /* iQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D07732882AB91439007D08AC /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				D03A250D2AB84F74007AA8D7 /* Assets.xcassets */,
 				D03A250F2AB84F74007AA8D7 /* LaunchScreen.storyboard */,
 				D03A25122AB84F74007AA8D7 /* Info.plist */,
-				D07732882AB91439007D08AC /* QuestaoViewController.swift */,
+				D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				D03A25092AB84F72007AA8D7 /* ViewController.swift in Sources */,
 				D03A25052AB84F72007AA8D7 /* AppDelegate.swift in Sources */,
 				D03A25072AB84F72007AA8D7 /* SceneDelegate.swift in Sources */,
-				D07732892AB91439007D08AC /* QuestaoViewController.swift in Sources */,
+				D08302FA2ABB05CD00B21880 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
