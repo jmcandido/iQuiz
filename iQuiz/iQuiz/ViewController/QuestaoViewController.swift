@@ -2,6 +2,12 @@
 
 import UIKit
 
+
+extension UIColor{
+    static var corDeFundoVerde = UIColor(red: 11/255, green: 161/255, blue: 53/255, alpha: 1)
+    
+    static var corDeFundoVermelha = UIColor(red: 211/255, green: 17/255, blue: 17/255, alpha: 1)
+}
 class QuestaoViewController: UIViewController {
     
     var pontuacao = 0
@@ -14,9 +20,9 @@ class QuestaoViewController: UIViewController {
         
         if(questoes[numeroQuestao].respostaCorreta == sender.tag){
             pontuacao += 1
-            sender.backgroundColor = UIColor(red: 11/255, green: 161/255, blue: 53/255, alpha: 1)
+            sender.backgroundColor = UIColor.corDeFundoVerde
         }else{
-            sender.backgroundColor = UIColor(red: 211/255, green: 17/255, blue: 17/255, alpha: 1)
+            sender.backgroundColor = UIColor.corDeFundoVermelha
         }
         
         if(numeroQuestao < questoes.count  - 1){

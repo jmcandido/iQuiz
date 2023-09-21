@@ -20,6 +20,6 @@ let questoes: [Questao] = [
     
     Questao(titulo: "Quantos jogadores em cada equipe estão presentes em uma partida competitiva padrão no CS:GO?", respostas: ["3", "4", "5"], respostaCorreta: 2),
     
-    Questao(titulo: "Qual é a arma secundária padrão para os terroristas no CS:GO?", respostas: ["Usp", "Glock", "P250"], respostaCorreta: 0),
+    Questao(titulo: "Qual é a arma secundária padrão para os terroristas no CS:GO?", respostas: ["Usp", "Glock", "P250"], respostaCorreta: 1),
     
 ]

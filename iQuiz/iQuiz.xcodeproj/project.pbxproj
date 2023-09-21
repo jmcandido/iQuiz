@@ -82,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D009B1B72ABC4EFA004CCC6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */,
+				D0B5BF702ABB9DCE00CE2BE2 /* DesempenhoViewController.swift */,
+				D03A25082AB84F72007AA8D7 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D009B1B82ABC4F0F004CCC6D /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				D05264C62ABB4A42009CF49F /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
 		D03A24F82AB84F72007AA8D7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +123,14 @@
 		D03A25032AB84F72007AA8D7 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D009B1B82ABC4F0F004CCC6D /* Modelo */,
+				D009B1B72ABC4EFA004CCC6D /* ViewController */,
 				D03A25042AB84F72007AA8D7 /* AppDelegate.swift */,
 				D03A25062AB84F72007AA8D7 /* SceneDelegate.swift */,
-				D03A25082AB84F72007AA8D7 /* ViewController.swift */,
 				D03A250A2AB84F72007AA8D7 /* Main.storyboard */,
 				D03A250D2AB84F74007AA8D7 /* Assets.xcassets */,
 				D03A250F2AB84F74007AA8D7 /* LaunchScreen.storyboard */,
 				D03A25122AB84F74007AA8D7 /* Info.plist */,
-				D08302F92ABB05CD00B21880 /* QuestaoViewController.swift */,
-				D05264C62ABB4A42009CF49F /* Questao.swift */,
-				D0B5BF702ABB9DCE00CE2BE2 /* DesempenhoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -449,6 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XN9MC3QA9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,6 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XN9MC3QA9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
